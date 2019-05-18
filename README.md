@@ -1,5 +1,5 @@
-# portfolio
-A few projects to show my skills
+# Portfolio
+A few projects to show my skills.
 
 Tic Tac Toe
-![Tic Tac Toe](/TicTacToe/public/tictactoe.jpg?raw=true "Tic Tac Toe")
+![Tic Tac Toe](/TicTacToe/public/tictactoe.jpg?raw=true)

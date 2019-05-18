@@ -6,8 +6,8 @@ const WinnerAlert = ({ winningPlayer, className, style }) => <div className={cla
 </div>;
 
 const WinnerAlertStyle = styled(WinnerAlert)`
-    min-height: 55px;
-    font-size: 40px;
+    min-height: 75px;
+    font-size: 5vw;
     display: flex;
     align-items: center;
     ${({ winningPlayer }) => !winningPlayer && { opacity: 0, "font-size": "10px" }};
