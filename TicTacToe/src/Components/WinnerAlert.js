@@ -6,7 +6,7 @@ const WinnerAlert = ({ winningPlayer, className, style }) => <div className={cla
 </div>;
 
 const WinnerAlertStyle = styled(WinnerAlert)`
-    min-height: 75px;
+    height: 7vw;
     font-size: 5vw;
     display: flex;
     align-items: center;
