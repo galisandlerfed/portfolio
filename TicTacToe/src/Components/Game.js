@@ -20,10 +20,6 @@ const StyledGame = styled.div`
   margin: 30px;
 `;
 
-const ClearButton = styled(Button)`
-  margin: 20px;
-`;
-
 class Game extends Component {
   state = {
     boardSigns: new Array(9).fill(null),
@@ -89,7 +85,7 @@ class Game extends Component {
         winningPlayer={winningPlayer}
         chooseSquare={this.chooseSquare}
       />
-      <ClearButton onClick={this.clearBoard}>Restart</ClearButton>
+      <Button onClick={this.clearBoard}>Restart</Button>
     </StyledGame>
   }
 }
